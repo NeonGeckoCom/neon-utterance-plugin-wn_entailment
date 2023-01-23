@@ -93,4 +93,3 @@ class WordNetEntailments(UtteranceTransformer):
 
         # return unchanged utterances + data
         return utterances, {"entailments": classes}
-
